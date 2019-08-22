@@ -17,10 +17,15 @@
 	
 # Resultados
 
-![Gráfico](cpu_x_memoria.png)  
+
 * TODO: Plotar um gráfico com os resultados das medições das seguintes métricas utilizadas para avaliar o comportamento do **processo filho**:
 	*  **UCP**: consumo da UCP em porcentagem.
+	![Gráfico](cpu_x_tempo.png)  
 	*  **UCP-MEM**: consumo da memória principal em Kilobytes.
+	![Gráfico](cpu_x_memoria.png)  
+	***ESSE GRÁFICO DE CIMA É O USO INTENSO DA MEMÓRIA USANDO MALLOC DURANTE OS 10S***
+	![Gráfico](mem_x_tempo.png)  
+	***ESSE GRÁFICO DE CIMA É O USO CPU EM RELAÇÃO A MEMÓRIA USANDO MALLOC DURANTE OS 10S***
 * TODO: Cada métrica deve ser plotada em duas curvas separadas.
 * TODO: o eixo das abscissas deve representar o tempo medido a cada segundo e o eixo das coordenadas deve representar a métrica medida.
 
