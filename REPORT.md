@@ -17,7 +17,7 @@
 	
 # Resultados
 
-![Gráfico](images/cpu_x_memoria.jpg)  
+![Gráfico](/home/lucas/imagens/cpu_x_memoria.jpg)  
 * TODO: Plotar um gráfico com os resultados das medições das seguintes métricas utilizadas para avaliar o comportamento do **processo filho**:
 	*  **UCP**: consumo da UCP em porcentagem.
 	*  **UCP-MEM**: consumo da memória principal em Kilobytes.
