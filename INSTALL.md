@@ -1,6 +1,6 @@
 # Instruções para compilação
 
-:Após o arquivo ter sido baixado, no terminal do linux deve-se entrar no diretório onde o arquivo foi salvo, e compilar o código com o seguinte comando:  
+  Após o arquivo ter sido baixado, no terminal do linux deve-se entrar no diretório onde o arquivo foi salvo, e compilar o código com o seguinte comando:  
 ```
 gcc iac.c -o iac
 ```
