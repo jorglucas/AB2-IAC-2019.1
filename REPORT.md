@@ -1,19 +1,19 @@
 # Identificação
 
-* Página do repositório do trabalho ([link GitHub](TODO)) 
+* Página do repositório do trabalho ([link GitHub]) 
 
 * Discente 1
-	* Nome: TODO
-	* Matrícula: TODO 
-	* Distribuição da nota (%): TODO
+	* Nome: Carllos Eduardo Ferreira Lopes
+	* Matrícula: 19111150
+	* Distribuição da nota (%): 
 * Discente 2
-	* Nome: TODO
-	* Matrícula: TODO
-	* Distribuição da nota (%): TODO
+	* Nome: Jorge Lucas
+	* Matrícula: 
+	* Distribuição da nota (%): 
 * Discente 3
-	* Nome: TODO
-	* Matrícula: TODO
-	* Distribuição da nota (%): TODO		
+	* Nome: Rick Martim Lino dos Santos
+	* Matrícula: 19111330
+	* Distribuição da nota (%): 		
 	
 # Resultados
 
@@ -28,7 +28,12 @@
 
 ## Utilização intensa da UCP
 
-TODO: explicar se o comportamento da curva **UCP** foi o esperado, sempre justificando sua resposta, referenciando o código fonte do programa e o gráfico do experimento realizado.
+	Quando o programa é executado com o parametro "uso_cpu" na função main, é processada a condição de funcionamento e repetição durante 10 segundos de monitoração, após isso o processo "filho" é morto. Por conseguinte, o resultado obtido foi o desejado, tendo em vista que foi gerado uma utilização da CPU com uma variação da amplitude entre 0% a 104% enquanto o programa estava sendo executado.
+	
+	A primeira etapa do programa é a criação de um processo, chamado de processo "filho", por meio da função fork(), esta função tem um retorno, se este retorno for com um valor menor que 0 (zero), significa que houve um erro na criação do processo, um valor maior que 0 (zero) caso seja o processo original, chamado de processo "pai" e o valor igual a 0 (zero), caso seja o processo "filho", tal retorno é o distinguidor do processo (pid). Após isso serão feitas comparações, caso o pid seja menor que 0, é mostrada a mensagem "Falha ao criar o processo!" e o programa é encerrado, se o pid for maior que 0, o processo filho foi executado e retornou o id do seu processo para o pai, então o id do filho é salvo e convertido para uma string, se o argumento for "uso_cpu", é executado o código de uso intenso da CPU, se for se o argumento for "cpu_e_memoria", é executado o codigo de uso intenso de CPU e Memória.
+	
+	Após identificado o argumento o programa direciona a uma estrutura de repetição (for), com um loop finito, com uma condição de funcionamento de 10 segundos,  
+	
 
 ## Utilização intensa da UCP e memória
 
