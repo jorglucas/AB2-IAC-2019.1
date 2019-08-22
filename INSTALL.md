@@ -1,20 +1,18 @@
 # Instruções para compilação
 
-Após baixar o arquivo "iac.c" e abrir o mesmo, o código deve ser compilado da seguinte maneira:
+Após o arquivo ter sido baixado, no terminal do linux deve-se entrar no diretório onde o arquivo foi salvo, e compilar o código com o seguinte comando:  
 
-bash
 gcc iac.c -o iac
+
+O compilador pode apresentar alguns warnings, mas que não interferem na execução do programa.
 
 # Execução
 
-Após compilar o programa, ele deve ser executado com os seguintes comandos:
-
-    •	Para a execução do código com utilização da CPU:
+No termino da compilação, deverá ser digitado o seguinte comando para o uso intenso da cpu:
   
-  bash
 $ ./iac uso_cpu
   
-    •	Para a execução do código com utilização da CPU e da Memória:
+Para o uso intenso de memória e cpu:
   
-  bash
 $ ./iac cpu_e_memoria
+  
