@@ -17,9 +17,6 @@
 	
 # Resultados
 
-
-* TODO: Plotar um gráfico com os resultados das medições das seguintes métricas utilizadas para avaliar o comportamento do **processo filho**:
-	*  **UCP**: consumo da UCP em porcentagem.
 	![Gráfico](cpu_x_tempo.png)  
 	***ESSE GRÁFICO DE CIMA É O USO INTENSO DA CPU DURANTE OS 10S***
 	
