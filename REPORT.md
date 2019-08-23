@@ -18,8 +18,7 @@
 	
 # Discussão
 
-	Para que um programa seja executado ele precisa ser transformado em processos, assim é necessário alocar o descritor de 	processos, alocar espaço na memória para o código (área conhecida como TEXT, onde se localiza o programa principal, as funções e as bibliotecas), os dados (Data, área onde as variáveis são alocadas - globais, locais estáticas, buffers internos) e a pilha (que possui o HEAP, área onde se localiza as variáveis dinâmicas, e o STACK, endereços de retorno de chamadas e parâmetros de funções).
-	A atribuição de endereço físico para as áreas de código e áreas de dados pode ser feita de três formas: em tempo de compilação, em tempo de carga e em tempo de execução. Em tempo de compilação o programador já faz a conversão de endereço lógico em endereço físico. Em tempo de carga o código precisa ser relocável de forma que todas as referências a memória sejam corrigidas para que o endereço de carga corresponda. Em tempo de execução tem-se o código absoluto e é realizada uma relocação dinâmica usando a MMU, não sendo necessário corrigir os endereços no momento da carga do programa em memória.
+	Para que um programa seja executado ele precisa ser convertidos em processos, assim é necessário designar o descritor de 	processos, alocar espaço na memória para o código (área conhecida como TEXT, onde se encontra o programa principal, as funções e as bibliotecas), os dados (data, área onde as variáveis são alocadas - sejam globais, locais estáticas, buffers internos) e a pilha (que possui o HEAP, área onde se localiza as variáveis dinâmicas, e o STACK, endereços de retorno de chamadas e parâmetros de funções).
 
 ## Utilização intensa da UCP
 
