@@ -51,7 +51,5 @@
 
 ## Utilização intensa da UCP e memória
 
-TODO: explicar se o comportamento da curva **UCP-MEM** foi o esperado, sempre justificando sua resposta, referenciando o código fonte do programa e o gráfico do experimento realizado.
-
 	Quando o programa é executado com o parâmetro "cpu_e_memoria", na função "main", é processada uma condição que simula o uso intenso da cpu através de um loop finito, porém muito longo, 
 
