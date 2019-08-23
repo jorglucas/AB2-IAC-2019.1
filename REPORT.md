@@ -18,7 +18,11 @@
 	
 # Discussão 
 -
-	Para que um programa seja executado ele precisa ser convertidos em processos, assim é necessário designar o descritor de processos, alocar espaço na memória para o código (área conhecida como TEXT, onde se encontra o programa principal, as funções e as bibliotecas), os dados (data, área onde as variáveis são alocadas - sejam globais, locais estáticas, buffers internos) e a pilha (que possui o HEAP, área onde se localiza as variáveis dinâmicas, e o STACK, endereços de retorno de chamadas e parâmetros de funções).
+	Para que um programa seja executado ele precisa ser convertidos em processos, assim é necessário designar o descritor
+	de processos, alocar espaço na memória para o código (área conhecida como TEXT, onde se encontra o programa 
+	principal, as funções e as bibliotecas), os dados (data, área onde as variáveis são alocadas - sejam globais, locais 
+	estáticas, buffers internos) e a pilha (que possui o HEAP, área onde se localiza as variáveis dinâmicas, e o STACK, 
+	endereços de retorno de chamadas e parâmetros de funções).
 
 ## Utilização intensa da UCP
 
@@ -56,7 +60,6 @@
 	
 	
 # Resultados
--	**Os resultados serão descrito abaixo tomando como unidade de medida: porcentagem (%) para o uso de memória, Kilobytes (KB) para o a quantidade de memória alocada e segundos (s) para o tempo que o programa é executado.**
 
 	![Gráfico](cpu.png)  
 
