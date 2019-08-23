@@ -22,14 +22,20 @@
 	*  **UCP**: consumo da UCP em porcentagem.
 	![Gráfico](cpu_x_tempo.png)  
 	***ESSE GRÁFICO DE CIMA É O USO INTENSO DA CPU DURANTE OS 10S***
+	
+	É interessante observar que em um curto periodo de tempo o uso da CPU da um salto de 0% até o pico 104% e se matém assim até o segundo 7, onde tem uma leve queda.
+	
 	*  **UCP-MEM**: consumo da memória principal em Kilobytes.
 	![Gráfico](mem_x_tempo.png)  
 	***ESSE GRÁFICO DE CIMA É O USO INTENSO DA MEMÓRIA USANDO MALLOC DURANTE OS 10S***
+	
+	No gráfico acima da para se observar que a curva de crescimento é praticamente linear em que ao passar dos segundos de execução o consumo de memória se torna bastante alto.
+	
 	![Gráfico](cpu_x_memoria.png)  
 	***ESSE GRÁFICO DE CIMA É O USO CPU EM RELAÇÃO A MEMÓRIA USANDO MALLOC DURANTE OS 10S***
-* TODO: Cada métrica deve ser plotada em duas curvas separadas.
-* TODO: o eixo das abscissas deve representar o tempo medido a cada segundo e o eixo das coordenadas deve representar a métrica medida.
-
+	
+	No eixo X está o consumo da CPU em % em função da memória que está no eixo Y. Nota-se que o consumo da CPU atinge o seu pico 104% muito rápido e se mantem até o segundo 8, onde começa a baixar novamente.
+	
 
 # Discussão
 
@@ -46,3 +52,6 @@
 ## Utilização intensa da UCP e memória
 
 TODO: explicar se o comportamento da curva **UCP-MEM** foi o esperado, sempre justificando sua resposta, referenciando o código fonte do programa e o gráfico do experimento realizado.
+
+	Quando o programa é executado com o parâmetro "cpu_e_memoria", na função "main", é processada uma condição que simula o uso intenso da cpu através de um loop finito, porém muito longo, 
+
