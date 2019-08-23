@@ -20,7 +20,7 @@
 
 ## Utilização intensa da UCP
 
-*	Quando o programa é executado com o parametro "uso_cpu", na função main é processada a condição de funcionamento e
+-	Quando o programa é executado com o parametro "uso_cpu", na função main é processada a condição de funcionamento e
 	repetição durante 10 segundos de monitoramento, após isso o processo "filho" é morto. Por conseguinte, o resultado
 	obtido foi o desejado, tendo em vista que foi gerado uma utilização intensa da CPU com uma variação de 0% a 104% de
 	uso da CPU enquanto o programa estava sendo executado.
@@ -45,12 +45,12 @@
 
 ## Utilização intensa da UCP e memória
 
-*	Quando o programa é executado com o parâmetro "cpu_e_memoria", na função "main", é processada uma condição que simula
+-	Quando o programa é executado com o parâmetro "cpu_e_memoria", na função "main", é processada uma condição que simula
 	o uso intenso da cpu através de um loop finito, porém muito longo, 
 	
 	
 # Resultados
-*	**Os resultados serão descrito abaixo tomando como unidade de medida: porcentagem (%) para o uso de memória, Kilobites (KB) para o a quantidade de memória alocada e segundos (s) para o tempo que o programa é executado.**
+-	**Os resultados serão descrito abaixo tomando como unidade de medida: porcentagem (%) para o uso de memória, Kilobites (KB) para o a quantidade de memória alocada e segundos (s) para o tempo que o programa é executado.**
 
 	![Gráfico](cpu_x_tempo.png)  
 
