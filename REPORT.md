@@ -1,6 +1,6 @@
 # Identificação
 
-* Página do repositório do trabalho ([link GitHub]) 
+* Página do repositório do trabalho ([link GitHub](https://github.com/jorglucas/AB2-IAC-2019.1))
 
 * Discente 1
 	* Nome: Carllos Eduardo Ferreira Lopes
@@ -66,7 +66,7 @@
 
 	No gráfico acima, é interessante observar que em um curto periodo de tempo (entre o segundo 0 e o segundo 1) o uso da CPU tem um grande crescimento de 0% até o pico de 104% e se matém assim até o segundo 7, onde tem uma leve diminuição. *No eixo horizontal está representado os segundos de execução e no eixo vertical o consumo de CPU.*
 
-	![Gráfico](mem.png)  
+	![Gráfico](memoria.png)  
 
 	Neste segundo gráfico observamos que a curva de crescimento da quantidade de memória alocada é diretamente proporcional ao aumento dos segundos e que cresce muito devido a função malloc que aloca muita memoria para esse processo. *No eixo horizontal está representado os segundos de execução e no eixo vertical a quantidade de memória alocada para o processo.*
 	
