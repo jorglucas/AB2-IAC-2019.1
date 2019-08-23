@@ -20,7 +20,10 @@
 
 ## Utilização intensa da UCP
 
-	Quando o programa é executado com o parametro "uso_cpu", na função main é processada a condição de funcionamento e repetição durante 10 segundos de monitoramento, após isso o processo "filho" é morto. Por conseguinte, o resultado obtido foi o desejado, tendo em vista que foi gerado uma utilização intensa da CPU com uma variação de 0% a 104% de uso da CPU enquanto o programa estava sendo executado.
+	Quando o programa é executado com o parametro "uso_cpu", na função main é processada a condição de funcionamento e
+	repetição durante 10 segundos de monitoramento, após isso o processo "filho" é morto. Por conseguinte, o resultado
+	obtido foi o desejado, tendo em vista que foi gerado uma utilização intensa da CPU com uma variação de 0% a 104% de
+	uso da CPU enquanto o programa estava sendo executado.
 	
 	A primeira etapa do programa é a criação de um processo, chamado de processo "filho", por meio da função fork(). 
 	Esta função tem um retorno, se este retorno for um valor menor que 0 (zero), significa que houve um erro na criação
