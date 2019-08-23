@@ -70,7 +70,7 @@
 
 	Neste segundo gráfico observamos que a curva de crescimento da quantidade de memória alocada é diretamente proporcional ao aumento dos segundos e que cresce muito devido a função malloc que aloca muita memoria para esse processo. *No eixo horizontal está representado os segundos de execução e no eixo vertical a quantidade de memória alocada para o processo.*
 	
-	![Gráfico](cpu_x_memoria.png) 
+	![Gráfico](cpu-memoria.png) 
 	
 	Neste último gráfico vemos como se comporta o consumo de CPU em relação a quantidade de memória alacoda pela função malloc. *No eixo horizontal está representado o uso de CPU e no eixo vertical a quantidade de memória alocada para o processo.*
 	
