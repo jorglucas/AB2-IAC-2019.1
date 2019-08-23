@@ -15,25 +15,7 @@
 	* Matrícula: 19111330
 	* Distribuição da nota (%): 		
 	
-# Resultados
-
-	![Gráfico](cpu_x_tempo.png)  
-	***ESSE GRÁFICO DE CIMA É O USO INTENSO DA CPU DURANTE OS 10S***
 	
-	É interessante observar que em um curto periodo de tempo o uso da CPU da um salto de 0% até o pico 104% e se matém assim até o segundo 7, onde tem uma leve queda.
-	
-	*  **UCP-MEM**: consumo da memória principal em Kilobytes.
-	![Gráfico](mem_x_tempo.png)  
-	***ESSE GRÁFICO DE CIMA É O USO INTENSO DA MEMÓRIA USANDO MALLOC DURANTE OS 10S***
-	
-	No gráfico acima da para se observar que a curva de crescimento é praticamente linear em que ao passar dos segundos de execução o consumo de memória se torna bastante alto.
-	
-	![Gráfico](cpu_x_memoria.png)  
-	***ESSE GRÁFICO DE CIMA É O USO CPU EM RELAÇÃO A MEMÓRIA USANDO MALLOC DURANTE OS 10S***
-	
-	No eixo X está o consumo da CPU em % em função da memória que está no eixo Y. Nota-se que o consumo da CPU atinge o seu pico 104% muito rápido e se mantem até o segundo 8, onde começa a baixar novamente.
-	
-
 # Discussão
 
 ## Utilização intensa da UCP
@@ -49,4 +31,20 @@
 ## Utilização intensa da UCP e memória
 
 	Quando o programa é executado com o parâmetro "cpu_e_memoria", na função "main", é processada uma condição que simula o uso intenso da cpu através de um loop finito, porém muito longo, 
+	
+	
+# Resultados
+*	**Os resultados serão descrito abaixo tomando como unidade de medida: porcentagem (%) para o uso de memória, Kilobites (KB) para o a quantidade de memória alocada e segundos (s) para o tempo que o programa é executado.**
 
+	![Gráfico](cpu_x_tempo.png)  
+
+	No gráfico acima, é interessante observar que em um curto periodo de tempo (entre o segundo 0 e o segundo 1) o uso da CPU tem um grande crescimento de 0% até o pico de 104% e se matém assim até o segundo 7, onde tem uma leve diminuição. *No eixo horizontal está representado os segundos de execução e no eixo vertical o consumo de CPU.*
+
+	![Gráfico](mem_x_tempo.png)  
+
+	Neste segundo gráfico observamos que a curva de crescimento da quantidade de memória alocada é diretamente proporcional ao aumento dos segundos e que cresce muito devido a função malloc que aloca muita memoria para esse processo. *No eixo horizontal está representado os segundos de execução e no eixo vertical a quantidade de memória alocada para o processo.*
+	
+	![Gráfico](cpu_x_memoria.png) 
+	
+	Neste último gráfico vemos como se comporta o consumo de CPU em relação a quantidade de memória alacoda pela função malloc. *No eixo horizontal está representado o uso de CPU e no eixo vertical a quantidade de memória alocada para o processo.*
+	
