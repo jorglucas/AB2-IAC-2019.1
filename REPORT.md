@@ -45,12 +45,16 @@
 
 ## Utilização intensa da UCP e memória
 
--	Quando o programa é executado com o parâmetro "cpu_e_memoria", na função "main", é processada uma condição que simula
-	o uso intenso da cpu através de um loop finito, porém muito longo, 
+-	Quando o programa é executado com o argumento "cpu_e_memoria", na função "main" é processada uma condição que simula
+	o uso intenso da cpu através de um loop finito, porém muito longo. Esse loop é feito utiizando o for() com um
+	parâmetro "k" que executa a função malloc muitas vezes, fazendo com que seja alocada muita memória para aquele
+	processo em execução, o processo filho. A função malloc utilizada, aloca 2 bytes na memória RAM cada vez que é
+	executada, sendo assim, em um loop muito longo, aloca uma sequencia muito grande de bytes o que aumenta muito o 
+	consumo de memória RAM.
 	
 	
 # Resultados
--	**Os resultados serão descrito abaixo tomando como unidade de medida: porcentagem (%) para o uso de memória, Kilobites (KB) para o a quantidade de memória alocada e segundos (s) para o tempo que o programa é executado.**
+-	**Os resultados serão descrito abaixo tomando como unidade de medida: porcentagem (%) para o uso de memória, Kilobytes (KB) para o a quantidade de memória alocada e segundos (s) para o tempo que o programa é executado.**
 
 	![Gráfico](cpu_x_tempo.png)  
 
